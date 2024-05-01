@@ -99,7 +99,7 @@ The contributors template adds the list of contributors and looks like this:
 
 [[ template:contributors ]]
 
-Use the `{{ template:contributors }}` placeholder to stamp it. Let's sa To use this template your are required to add the `contributors` array to your `package.json` file like this. Only the `name` field is required.
+Use the `{{ template:contributors }}` placeholder to stamp it. To use this template you are required to add the `contributors` array to your `package.json` file like this. Only the `name` field is required.
 
 ```json
 {
@@ -112,11 +112,6 @@ Use the `{{ template:contributors }}` placeholder to stamp it. Let's sa To use t
       "info": [
         "🔥"
       ]
-    },
-    {
-      "name": "You?",
-      "img": "https://joeschmoe.io/api/v1/random",
-      "url": "https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md"
     }
   ]
 }

@@ -3,9 +3,9 @@
 	"blueprint": "blueprint.md",
 	"input": "blueprint.md",
 	"output": "README.md",
-	"text": "Use this readme generator to easily generate beautiful readme's like this one! Simply extend your <code>package.json</code> and create a readme blueprint. On Github, the README file is like the landing page of your website because it is the first thing visitors see. You want to make a good first impression.",
+	"text": "Use this readme generator to easily generate beautiful readme's like this one! Simply extend your <code>package.json</code> and create a readme blueprint. On GitHub, the README file is like the landing page of your website because it is the first thing visitors see. You want to make a good first impression.",
 	"logo": {
-		"src": "https://raw.githubusercontent.com/andreasbm/readme/master/assets/logo-shadow.png",
+		"src": "https://raw.githubusercontent.com/anyesu/readme/master/assets/logo-shadow.png",
 		"width": 150,
 		"height": 150
 	},
@@ -19,8 +19,8 @@
 		}
 	},
 	"ids": {
-		"github": "andreasbm/readme",
-		"npm": "@appnest/readme"
+		"github": "anyesu/readme",
+		"npm": "@anyesu/readme"
 	},
 	"badges": [
 		{
@@ -31,7 +31,7 @@
 		{
 			"alt": "Maintained",
 			"img": "https://img.shields.io/badge/Maintained%3F-yes-green.svg",
-			"url": "https://github.com/andreasbm/readme/graphs/commit-activity"
+			"url": "https://github.com/anyesu/readme/graphs/commit-activity"
 		}
 	],
 	"bullets": {
@@ -51,7 +51,7 @@
 	"templates": [
 		{
 			"name": "install",
-			"template": "Run `npm install [[ ids.npm ]]' to install this library!"
+			"template": "Run `npm install [[ ids.npm ]]` to install this library!"
 		}
 	],
 	"example": {
@@ -168,7 +168,7 @@
 		[
 			"-d, --dry",
 			"boolean",
-			"Whether the command should run as dry. If dry, the output file is notgenerated but outputted to the console instead."
+			"Whether the command should run as dry. If dry, the output file is not generated but outputted to the console instead."
 		],
 		[
 			"--headingPrefix",

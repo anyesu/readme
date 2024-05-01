@@ -7,7 +7,7 @@ You are able to create your own templates to keep things as DRY as a hot summer 
   "templates": [
     {
       "name": "install",
-      "template": "Run `npm install {{ ids.npm }} to install this library!"
+      "template": "Run `npm install {{ ids.npm }}` to install this library!"
     }
   ]
 }

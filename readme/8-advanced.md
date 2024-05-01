@@ -35,7 +35,7 @@ Objects are formatted as a list with the keys being bold. If you for example wan
 
 #### 1D Arrays
 
-If you have a 1D array it will be formatted as a list. If you for example want to stamp the the `keywords` field from your `package.json` file you write `{{ pkg.keywords }}` and the keywords will be stamped in a nice formatted way like this:
+If you have a 1D array it will be formatted as a list. If you for example want to stamp the `keywords` field from your `package.json` file you write `{{ pkg.keywords }}` and the keywords will be stamped in a nice formatted way like this:
 
 [[ pkg.keywords ]]
 
@@ -71,21 +71,21 @@ If you want to change the color of the lines above headers you can change the `l
 
 The following is the dark variant of the line.
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png)
+![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/dark.png)
 
 Yeah! Dark mode on your `README.md` is awesome indeed. You have other options besides dark mode. Here's all the line styles you can choose from.
 
-* "aqua" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
-* "cloudy" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)
-* "colored" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
-* "cut" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cut.png)
-* "dark" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png)
-* "fire" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
-* "grass" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
-* "rainbow" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-* "solar" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
-* "vintage" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/vintage.png)
-* "water" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)
+* "aqua" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/aqua.png)
+* "cloudy" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/cloudy.png)
+* "colored" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)
+* "cut" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/cut.png)
+* "dark" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/dark.png)
+* "fire" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/fire.png)
+* "grass" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/grass.png)
+* "rainbow" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/rainbow.png)
+* "solar" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/solar.png)
+* "vintage" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/vintage.png)
+* "water" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/water.png)
 
 If you want your own line design you can give the `line` field an url to an image instead. It is recommended that this image is 900px in width. If you prefer no line at all you can give the `line` field the string "none".
 
@@ -102,4 +102,4 @@ If you want to change the prefix in front of the heading you can change the `hea
 }
 ```
 
-If you want some inspiration for symbols you can put infront of the headings you can check out [this](https://unicodes.smpc.io/) website.
+If you want some inspiration for symbols you can put in front of the headings you can check out [this](https://unicodes.smpc.io/) website.

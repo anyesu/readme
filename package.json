@@ -1,5 +1,5 @@
 {
-	"name": "@appnest/readme",
+	"name": "@anyesu/readme",
 	"version": "1.2.7",
 	"description": "Automatically generate a beautiful best-practice README file based on the contents of your repository",
 	"license": "MIT",
@@ -25,12 +25,12 @@
 		"ncu": "ncu -u -a && npm update && npm install"
 	},
 	"bugs": {
-		"url": "https://github.com/andreasbm/readme/issues"
+		"url": "https://github.com/anyesu/readme/issues"
 	},
-	"homepage": "https://github.com/andreasbm/readme#readme",
+	"homepage": "https://github.com/anyesu/readme#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/andreasbm/readme.git"
+		"url": "git+https://github.com/anyesu/readme.git"
 	},
 	"keywords": [
 		"opensource",
@@ -50,11 +50,6 @@
 			"info": [
 				"🔥"
 			]
-		},
-		{
-			"name": "You?",
-			"img": "https://joeschmoe.io/api/v1/random",
-			"url": "https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md"
 		}
 	],
 	"bin": {
@@ -72,11 +67,13 @@
 	},
 	"devDependencies": {
 		"@types/fs-extra": "^8.1.0",
+		"@types/node": "14.14.31",
 		"@wessberg/rollup-plugin-ts": "^1.2.21",
 		"rimraf": "^3.0.2",
-		"rollup": "^2.1.0",
+		"rollup": "2.1.0",
 		"rollup-plugin-commonjs": "^10.1.0",
 		"rollup-plugin-json": "^4.0.0",
-		"rollup-plugin-node-resolve": "^5.2.0"
+		"rollup-plugin-node-resolve": "^5.2.0",
+		"typescript": "3.8.3"
 	}
 }

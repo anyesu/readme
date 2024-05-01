@@ -18,6 +18,7 @@ export const config = {
 		}),
 		json(),
 		ts({
+			browserslist: ['last 2 chrome versions'],
 			transpiler: "babel"
 		}),
 		commonjs({

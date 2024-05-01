@@ -1,10 +1,14 @@
 [[ template:logo ]]
 [[ template:title ]]
+
+> [!NOTE]  
+> **This project is forked from [@appnest/readme](https://github.com/andreasbm/readme), but adds additional features, see [Releases](https://github.com/anyesu/readme/releases).**
+
 [[ template:badges ]]
 [[ template:description ]]
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/demo.gif" alt="Demo" width="800" />
+  <img src="https://raw.githubusercontent.com/anyesu/readme/master/assets/demo.gif" alt="Demo" width="800" />
 </p>
 
 [[ bullets ]]
