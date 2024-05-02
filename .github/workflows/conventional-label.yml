@@ -1,0 +1,33 @@
+# Warning, do not check out untrusted code with
+# the pull_request_target event.
+on:
+  pull_request_target:
+    types: [opened, edited]
+name: conventional-release-labels
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: bcoe/conventional-release-labels@v1
+        with:
+          type_labels: |
+            {
+              "breaking": "change: breaking",
+              "feat": "change: feat",
+              "perf": "change: perf",
+              "fix": "change: fix",
+              "docs": "change: docs",
+              "build": "change: build",
+              "revert": "change: revert"
+            }
+          ignored_types: |
+            [
+              "style",
+              "refactor",
+              "test",
+              "ci",
+              "chore"
+            ]

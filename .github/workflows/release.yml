@@ -1,0 +1,26 @@
+name: Publish release
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: The tag to publish
+        required: true
+  push:
+    tags:
+      - "v*.*.*"
+jobs:
+  publish:
+    name: Publish release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      discussions: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          tag_name: ${{ inputs.tag || '' }}
+          discussion_category_name: Releases
