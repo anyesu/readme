@@ -1,4 +1,6 @@
-<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️--><p align="center">
+<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️-->
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/anyesu/readme/master/assets/logo-shadow.png" alt="Logo" width="150" height="150" />
 </p>
 <h1 align="center">@anyesu/readme</h1>
@@ -7,13 +9,13 @@
 > **This project is forked from [@appnest/readme](https://github.com/andreasbm/readme), but adds additional features, see [Releases](https://github.com/anyesu/readme/releases).**
 
 <p align="center">
-		<a href="https://npmcharts.com/compare/@anyesu/readme?minimal=true"><img alt="Downloads per month" src="https://img.shields.io/npm/dm/@anyesu/readme.svg" height="20"/></a>
-<a href="https://www.npmjs.com/package/@anyesu/readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/@anyesu/readme.svg" height="20"/></a>
-<a href="https://david-dm.org/anyesu/readme"><img alt="Dependencies" src="https://img.shields.io/david/anyesu/readme.svg" height="20"/></a>
-<a href="https://github.com/anyesu/readme/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/anyesu/readme.svg" height="20"/></a>
-<a href="https://github.com/badges/shields"><img alt="Custom badge" src="https://img.shields.io/badge/custom-badge-f39f37.svg" height="20"/></a>
-<a href="https://github.com/anyesu/readme/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20"/></a>
-	</p>
+  <a href="https://npmcharts.com/compare/@anyesu/readme?minimal=true"><img alt="Downloads per month" src="https://img.shields.io/npm/dm/@anyesu/readme.svg" height="20" /></a>
+  <a href="https://www.npmjs.com/package/@anyesu/readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/@anyesu/readme.svg" height="20" /></a>
+  <a href="https://david-dm.org/anyesu/readme"><img alt="Dependencies" src="https://img.shields.io/david/anyesu/readme.svg" height="20" /></a>
+  <a href="https://github.com/anyesu/readme/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/anyesu/readme.svg" height="20" /></a>
+  <a href="https://github.com/badges/shields"><img alt="Custom badge" src="https://img.shields.io/badge/custom-badge-f39f37.svg" height="20" /></a>
+  <a href="https://github.com/anyesu/readme/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20" /></a>
+</p>
 
 <p align="center">
   <b>Automatically generate a beautiful best-practice README file based on the contents of your repository</b></br>
@@ -221,13 +223,13 @@ Use the placeholder `{{ template:logo }}` to stamp it. You will need to add the 
 The badges template adds badges to your readme and looks like this:
 
 <p align="center">
-		<a href="https://npmcharts.com/compare/@anyesu/readme?minimal=true"><img alt="Downloads per month" src="https://img.shields.io/npm/dm/@anyesu/readme.svg" height="20"/></a>
-<a href="https://www.npmjs.com/package/@anyesu/readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/@anyesu/readme.svg" height="20"/></a>
-<a href="https://david-dm.org/anyesu/readme"><img alt="Dependencies" src="https://img.shields.io/david/anyesu/readme.svg" height="20"/></a>
-<a href="https://github.com/anyesu/readme/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/anyesu/readme.svg" height="20"/></a>
-<a href="https://github.com/badges/shields"><img alt="Custom badge" src="https://img.shields.io/badge/custom-badge-f39f37.svg" height="20"/></a>
-<a href="https://github.com/anyesu/readme/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20"/></a>
-	</p>
+  <a href="https://npmcharts.com/compare/@anyesu/readme?minimal=true"><img alt="Downloads per month" src="https://img.shields.io/npm/dm/@anyesu/readme.svg" height="20" /></a>
+  <a href="https://www.npmjs.com/package/@anyesu/readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/@anyesu/readme.svg" height="20" /></a>
+  <a href="https://david-dm.org/anyesu/readme"><img alt="Dependencies" src="https://img.shields.io/david/anyesu/readme.svg" height="20" /></a>
+  <a href="https://github.com/anyesu/readme/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/anyesu/readme.svg" height="20" /></a>
+  <a href="https://github.com/badges/shields"><img alt="Custom badge" src="https://img.shields.io/badge/custom-badge-f39f37.svg" height="20" /></a>
+  <a href="https://github.com/anyesu/readme/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20" /></a>
+</p>
 
 
 Use the `{{ template:badges }}` placeholder to stamp it. You will need to add the data about how the badges should be generated. For that you can extend the `ids` property in your `blueprint.json` and add the `npm` and `github` ids (both are optional). If you want to add your own badges you can use the `badges` field.

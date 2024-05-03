@@ -123,7 +123,7 @@ export async function generate ({config, configPath, generators}: {config: IConf
 
 	// Add warning
 	const warning = `<!-- ⚠️ This README has been generated from the file(s) "${Array.isArray(config.input) ? config.input.join(", ") : config.input}" ⚠️-->`;
-	readme = `${warning}${readme}`;
+	readme = [warning, "", readme].join(config.lineBreak);
 
 	// Check broken links
 	if (config.checkLinks) {
