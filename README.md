@@ -35,7 +35,7 @@
 <summary>📖 Table of Contents</summary>
 <br />
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#table-of-contents)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#table-of-contents)
 
 ## ➤ Table of Contents
 
@@ -83,7 +83,7 @@
 </details>
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#installation)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#installation)
 
 ## ➤ Installation
 
@@ -93,7 +93,7 @@ $ npm install @anyesu/readme -D
 
 If you don't want to install anything you can use the `npx @anyesu/readme generate` command instead.
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#getting-started-quick)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#getting-started-quick)
 
 ## ➤ Getting Started (quick)
 
@@ -105,7 +105,7 @@ This getting started guide is super quick! Follow these two steps, and you will 
 That's it! Check out your freshly generated `README.md` file and enjoy the fruits of what you just did.
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#getting-started-slower)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#getting-started-slower)
 
 ## ➤ Getting Started (slower)
 
@@ -175,7 +175,7 @@ To configure this library you'll need to create a `blueprint.json` file. This fi
 
 Great. Now that we have the basics covered, let's continue and see how you can use templates!
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#templates)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#templates)
 
 ## ➤ Templates
 
@@ -285,7 +285,7 @@ Use the `{{ template:description }}` placeholder to stamp it. To use this templa
 The table of contents template adds a table of contents and looks like this:
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#table-of-contents)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#table-of-contents)
 
 ## ➤ Table of Contents
 
@@ -339,7 +339,7 @@ Use the `{{ template:toc }}` placeholder to stamp it. It has been scientifically
 The contributors template adds the list of contributors and looks like this:
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#contributors)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#contributors)
 
 ## ➤ Contributors
 	
@@ -375,7 +375,7 @@ Take note of the `info` array. That one is really exciting! Here you can add lin
 The license template adds a license section and looks like this:
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#license)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#license)
 
 ## ➤ License
 	
@@ -391,13 +391,13 @@ Use the `{{ template:license }}` placeholder to stamp it. To use this template y
 
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#load-markdown-files)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#load-markdown-files)
 
 ## ➤ Load markdown files
 
 What? You heard right. You can split the contents of your readme into multiple different files to make your life easier. Let's say you have a file called `my-section.md`. To stamp it you'll need to add `{{ load:my-section.md }}`.
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#automatic-documentation)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#automatic-documentation)
 
 ## ➤ Automatic documentation
 
@@ -439,7 +439,7 @@ customElements.define("my-button", MyButton);
 Then you can get automatic documentation for the web component by simply writing `{{ doc:my-button.js }}` which will result in the following content.
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#my-button)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#my-button)
 
 ## ➤ my-button
 
@@ -461,7 +461,7 @@ Button used for clicking!
 
 If you want to learn more about how the documentation is generated, check out [`web-component-analyzer`](https://github.com/runem/web-component-analyzer).
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#a-bit-about-this-readme)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#a-bit-about-this-readme)
 
 ## ➤ A bit about this readme
 
@@ -491,7 +491,7 @@ By now you are probably curious to know how this README file was generated? It w
 
 It really couldn't be more simple that this.
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#custom-templates)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#custom-templates)
 
 ## ➤ Custom templates
 
@@ -514,7 +514,7 @@ Run `npm install @anyesu/readme` to install this library!
 
 Be creative! You can for example add a template for code-snippets or [words you keep spelling wrong](https://en.oxforddictionaries.com/spelling/common-misspellings).
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#advanced)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#advanced)
 
 ## ➤ Advanced!
 
@@ -608,21 +608,53 @@ If you want to change the color of the lines above headers you can change the `l
 
 The following is the dark variant of the line.
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/dark.png)
+<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/dark.png" width="100%" />
 
 Yeah! Dark mode on your `README.md` is awesome indeed. You have other options besides dark mode. Here's all the line styles you can choose from.
 
-* "aqua" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/aqua.png)
-* "cloudy" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/cloudy.png)
-* "colored" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)
-* "cut" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/cut.png)
-* "dark" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/dark.png)
-* "fire" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/fire.png)
-* "grass" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/grass.png)
-* "rainbow" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/rainbow.png)
-* "solar" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/solar.png)
-* "vintage" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/vintage.png)
-* "water" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/water.png)
+* "aqua"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/aqua.png" width="100%" />
+
+* "cloudy"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/cloudy.png" width="100%" />
+
+* "colored"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />
+
+* "cut"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/cut.png" width="100%" />
+
+* "dark"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/dark.png" width="100%" />
+
+* "fire"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/fire.png" width="100%" />
+
+* "grass"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/grass.png" width="100%" />
+
+* "rainbow"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/rainbow.png" width="100%" />
+
+* "solar"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/solar.png" width="100%" />
+
+* "vintage"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/vintage.png" width="100%" />
+
+* "water"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/water.png" width="100%" />
 
 If you want your own line design you can give the `line` field an url to an image instead. It is recommended that this image is 900px in width. If you prefer no line at all you can give the `line` field the string "none".
 
@@ -641,7 +673,7 @@ If you want to change the prefix in front of the heading you can change the `hea
 
 If you want some inspiration for symbols you can put in front of the headings you can check out [this](https://unicodes.smpc.io/) website.
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#featured-readmes)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#featured-readmes)
 
 ## ➤ Featured README's
 
@@ -658,14 +690,14 @@ If you use this generator for one of your projects I would love to hear about it
 As inspiration for the layout of the generated README files I initially found inspiration from [terkelg's brilliant repository called prompts](https://github.com/terkelg/prompts) - a prime example on how every README file should look! I therefore wanted to mention him here even though he doesn't use this README generator. If you want to see an example of a brilliant README file you should definitely check his repository out.
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#future-work)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#future-work)
 
 ## ➤ Future work
 
 That's it for now! Lots of exiting features a going to be added in the future. If you stumble upon an issue or have a feature request you are very welcome to open a GitHub issue or pull request. Have a great day!
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#faq)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#faq)
 
 ## ➤ FAQ
 
@@ -686,7 +718,7 @@ No problem at all! Your first step can be to rename your `README.md` to `bluepri
 There are lots of ways to support me! I would be so happy if you gave this repository a star, tweeted about it or told your friends about this little corner of the Internet ❤️
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#contributors)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#contributors)
 
 ## ➤ Contributors
 	
@@ -697,7 +729,7 @@ There are lots of ways to support me! I would be so happy if you gave this repos
 | 🔥                                               |
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)](#license)
+[<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#license)
 
 ## ➤ License
 	

@@ -71,21 +71,53 @@ If you want to change the color of the lines above headers you can change the `l
 
 The following is the dark variant of the line.
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/dark.png)
+<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/dark.png" width="100%" />
 
 Yeah! Dark mode on your `README.md` is awesome indeed. You have other options besides dark mode. Here's all the line styles you can choose from.
 
-* "aqua" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/aqua.png)
-* "cloudy" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/cloudy.png)
-* "colored" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png)
-* "cut" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/cut.png)
-* "dark" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/dark.png)
-* "fire" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/fire.png)
-* "grass" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/grass.png)
-* "rainbow" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/rainbow.png)
-* "solar" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/solar.png)
-* "vintage" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/vintage.png)
-* "water" ![-----------------------------------------------------](https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/water.png)
+* "aqua"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/aqua.png" width="100%" />
+
+* "cloudy"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/cloudy.png" width="100%" />
+
+* "colored"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />
+
+* "cut"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/cut.png" width="100%" />
+
+* "dark"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/dark.png" width="100%" />
+
+* "fire"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/fire.png" width="100%" />
+
+* "grass"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/grass.png" width="100%" />
+
+* "rainbow"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/rainbow.png" width="100%" />
+
+* "solar"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/solar.png" width="100%" />
+
+* "vintage"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/vintage.png" width="100%" />
+
+* "water"
+
+  <img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/water.png" width="100%" />
 
 If you want your own line design you can give the `line` field an url to an image instead. It is recommended that this image is 900px in width. If you prefer no line at all you can give the `line` field the string "none".
 

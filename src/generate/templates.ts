@@ -44,7 +44,7 @@ export function lineTemplate ({config}: LineTemplateArgs) {
 		url = `https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/${line}.png`;
 	}
 
-	return `![-----------------------------------------------------](${url})`;
+	return `<img alt="-----------------------------------------------------" src="${url}" width="100%" />`;
 }
 
 /**
