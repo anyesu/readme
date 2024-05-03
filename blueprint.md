@@ -30,5 +30,7 @@
 [[ load:readme/9-featured-readmes.md ]]
 [[ load:readme/10-future-work.md ]]
 [[ load:readme/11-faq.md ]]
+## Contributors
+
 [[ template:contributors ]]
 [[ template:license ]]
