@@ -342,7 +342,7 @@ The contributors template adds the list of contributors and looks like this:
 [<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#contributors)
 
 ## ➤ Contributors
-	
+
 
 | [<img alt="Andreas Mehlsen" src="https://avatars1.githubusercontent.com/u/6267397?s=460&v=4" width="100">](https://twitter.com/andreasmehlsen) |
 |:--------------------------------------------------:|
@@ -721,7 +721,7 @@ There are lots of ways to support me! I would be so happy if you gave this repos
 [<img alt="-----------------------------------------------------" src="https://raw.githubusercontent.com/anyesu/readme/master/assets/lines/colored.png" width="100%" />](#contributors)
 
 ## ➤ Contributors
-	
+
 
 | [<img alt="Andreas Mehlsen" src="https://avatars1.githubusercontent.com/u/6267397?s=460&v=4" width="100">](https://twitter.com/andreasmehlsen) |
 |:--------------------------------------------------:|

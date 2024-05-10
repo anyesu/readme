@@ -97,6 +97,8 @@ Use the `{{ template:toc }}` placeholder to stamp it. It has been scientifically
 
 The contributors template adds the list of contributors and looks like this:
 
+## Contributors
+
 [[ template:contributors ]]
 
 Use the `{{ template:contributors }}` placeholder to stamp it. To use this template you are required to add the `contributors` array to your `package.json` file like this. Only the `name` field is required.

@@ -236,9 +236,7 @@ export function contributorsTemplate ({contributors, config}: ContributorsTempla
 	// Split the contributors into multiple arrays (one for each row)
 	const rows = splitArrayIntoArrays(contributors, contributorsPerRow);
 
-	return `## Contributors
-	
-${rows.map(row => {
+	return `${rows.map(row => {
 
 		// Compile the rows
 		const imgs = row.map(({img, url, name}) => img != null ? `[<img alt="${name}" src="${img}" width="${imageSize}">](${url})` : " ");
