@@ -11,7 +11,6 @@
 <p align="center">
   <a href="https://npmcharts.com/compare/@anyesu/readme?minimal=true"><img alt="Downloads per month" src="https://img.shields.io/npm/dm/@anyesu/readme.svg" height="20" /></a>
   <a href="https://www.npmjs.com/package/@anyesu/readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/@anyesu/readme.svg" height="20" /></a>
-  <a href="https://david-dm.org/anyesu/readme"><img alt="Dependencies" src="https://img.shields.io/david/anyesu/readme.svg" height="20" /></a>
   <a href="https://github.com/anyesu/readme/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/anyesu/readme.svg" height="20" /></a>
   <a href="https://github.com/badges/shields"><img alt="Custom badge" src="https://img.shields.io/badge/custom-badge-f39f37.svg" height="20" /></a>
   <a href="https://github.com/anyesu/readme/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20" /></a>
@@ -225,7 +224,6 @@ The badges template adds badges to your readme and looks like this:
 <p align="center">
   <a href="https://npmcharts.com/compare/@anyesu/readme?minimal=true"><img alt="Downloads per month" src="https://img.shields.io/npm/dm/@anyesu/readme.svg" height="20" /></a>
   <a href="https://www.npmjs.com/package/@anyesu/readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/@anyesu/readme.svg" height="20" /></a>
-  <a href="https://david-dm.org/anyesu/readme"><img alt="Dependencies" src="https://img.shields.io/david/anyesu/readme.svg" height="20" /></a>
   <a href="https://github.com/anyesu/readme/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/anyesu/readme.svg" height="20" /></a>
   <a href="https://github.com/badges/shields"><img alt="Custom badge" src="https://img.shields.io/badge/custom-badge-f39f37.svg" height="20" /></a>
   <a href="https://github.com/anyesu/readme/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20" /></a>
