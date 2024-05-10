@@ -26,11 +26,6 @@ export function npmBadges ({npmId}: {npmId: string}): IBadge[] {
 export function githubBadges ({githubId}: {githubId: string}): IBadge[] {
 	return [
 		{
-			"alt": "Dependencies",
-			"url": `https://david-dm.org/${githubId}`,
-			"img": `https://img.shields.io/david/${githubId}.svg`
-		},
-		{
 			"alt": "Contributors",
 			"url": `https://github.com/${githubId}/graphs/contributors`,
 			"img": `https://img.shields.io/github/contributors/${githubId}.svg`
