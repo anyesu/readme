@@ -14,7 +14,7 @@
 		"readme": "npm run b:lib && npm run generate:readme",
 		"generate:readme": "node dist/cli.cjs.js generate",
 		"publish": "cd dist && npm publish --access=public && cd ..",
-		"git:add:commit:push": "git add . && git commit --no-edit --amend --no-verify && git push",
+		"git:add:commit:push": "git push --porcelain origin refs/heads/master:master --tags",
 		"bump:patch": "npm version patch && npm run git:add:commit:push",
 		"bump:minor": "npm version minor && npm run git:add:commit:push",
 		"bump:major": "npm version major && npm run git:add:commit:push",
