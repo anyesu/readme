@@ -98,11 +98,9 @@ export function demoTemplate ({url}: DemoTemplateArgs) {
  */
 export function descriptionTemplate ({description, text, demo}: DescriptionTemplateArgs): string {
 	return `<p align="center">
-  <b>${description}</b></br>
-  <sub>${text != null ? text : ""}${demo != null ? ` ${demoTemplate({url: demo})}` : ""}<sub>
+  <b>${description}</b><br />
+  <sub>${text != null ? text : ""}${demo != null ? ` ${demoTemplate({url: demo})}` : ""}</sub>
 </p>
-
-<br />
 `;
 }
 

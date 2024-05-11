@@ -17,12 +17,11 @@
 </p>
 
 <p align="center">
-  <b>Automatically generate a beautiful best-practice README file based on the contents of your repository</b></br>
-  <sub>Use this readme generator to easily generate beautiful readme's like this one! Simply extend your <code>package.json</code> and create a readme blueprint. On GitHub, the README file is like the landing page of your website because it is the first thing visitors see. You want to make a good first impression.<sub>
+  <b>Automatically generate a beautiful best-practice README file based on the contents of your repository</b><br />
+  <sub>Use this readme generator to easily generate beautiful readme's like this one! Simply extend your <code>package.json</code> and create a readme blueprint. On GitHub, the README file is like the landing page of your website because it is the first thing visitors see. You want to make a good first impression.</sub>
 </p>
 
 <br />
-
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/anyesu/readme/master/assets/demo.gif" alt="Demo" width="800" />
@@ -121,7 +120,7 @@ Let's start simple. In order to get values from your `package.json` file injecte
 ```json
 {
   "name": "@anyesu/readme",
-  "version": "1.2.7"
+  "version": "1.3.0"
 }
 ```
 
@@ -134,7 +133,7 @@ Welcome to {{ pkg.name }}. This is version {{ pkg.version }}!
 When running `node_modules/.bin/readme generate` the file `README.md` will be generated with the following contents:
 
 ```
-Welcome to @anyesu/readme. This is version 1.2.7!
+Welcome to @anyesu/readme. This is version 1.3.0!
 ```
 
 ### Usage
@@ -255,12 +254,11 @@ If you need some inspiration for badges, check [this website](https://shields.io
 The description template adds a description to your readme and looks like this:
 
 <p align="center">
-  <b>Automatically generate a beautiful best-practice README file based on the contents of your repository</b></br>
-  <sub>Use this readme generator to easily generate beautiful readme's like this one! Simply extend your <code>package.json</code> and create a readme blueprint. On GitHub, the README file is like the landing page of your website because it is the first thing visitors see. You want to make a good first impression.<sub>
+  <b>Automatically generate a beautiful best-practice README file based on the contents of your repository</b><br />
+  <sub>Use this readme generator to easily generate beautiful readme's like this one! Simply extend your <code>package.json</code> and create a readme blueprint. On GitHub, the README file is like the landing page of your website because it is the first thing visitors see. You want to make a good first impression.</sub>
 </p>
 
 <br />
-
 
 Use the `{{ template:description }}` placeholder to stamp it. To use this template you are required to add the field `description` to your `package.json` file. Optionally you can also add the fields `text` and `demo` in your `blueprint.json` file which will be presented below the description.
 
