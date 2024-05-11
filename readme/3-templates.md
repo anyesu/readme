@@ -66,6 +66,7 @@ If you need some inspiration for badges, check [this website](https://shields.io
 The description template adds a description to your readme and looks like this:
 
 [[ template:description ]]
+<br />
 
 Use the `{{ template:description }}` placeholder to stamp it. To use this template you are required to add the field `description` to your `package.json` file. Optionally you can also add the fields `text` and `demo` in your `blueprint.json` file which will be presented below the description.
 

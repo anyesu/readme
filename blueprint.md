@@ -6,6 +6,7 @@
 
 [[ template:badges ]]
 [[ template:description ]]
+<br />
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/anyesu/readme/master/assets/demo.gif" alt="Demo" width="800" />
