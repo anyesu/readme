@@ -1,6 +1,6 @@
 {
 	"name": "@anyesu/readme",
-	"version": "1.3.1",
+	"version": "1.4.0",
 	"description": "Automatically generate a beautiful best-practice README file based on the contents of your repository",
 	"license": "MIT",
 	"module": "index.esm.js",
