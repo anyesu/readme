@@ -29,5 +29,5 @@ export const config = {
 		...Object.keys(pkg.dependencies || {}),
 		...Object.keys(pkg.devDependencies || {}),
 	],
-	treeshake: false
+	treeshake: true
 };

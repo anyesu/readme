@@ -1,5 +1,5 @@
 import * as program from "commander";
-import pkg from "./../package.json";
+import { version } from "./../package.json";
 import { checkLinksCommand } from "./check-links/check-links";
 import { defaultConfig, defaultConfigName, defaultDocumentationConfig } from "./config";
 import { generateCommand } from "./generate/generate";
@@ -10,7 +10,7 @@ import { generateCommand } from "./generate/generate";
  */
 export async function run (argv: string[]) {
 	program
-		.version(pkg.version);
+		.version(version);
 
 	program
 		.command(`check-links`)
