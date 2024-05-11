@@ -3,6 +3,7 @@
 		"module": "esnext",
 		"target": "esnext",
 		"moduleResolution": "node",
+		"resolveJsonModule": true,
 		"emitDecoratorMetadata": false,
 		"newLine": "LF",
 		"sourceMap": true,
