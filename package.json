@@ -8,20 +8,13 @@
 	"types": "index.d.ts",
 	"author": "Appnest",
 	"scripts": {
-		"prebuild": "node prebuild.js",
-		"b:lib": "rollup -c && rollup -c=rollup-cli.config.js",
-		"b:lib:prebuild": "npm run prebuild && npm run b:lib",
-		"readme": "npm run b:lib && npm run generate:readme",
+		"lib": "rollup -c && rollup -c=rollup-cli.config.js",
+		"build": "node prebuild.js && npm run lib",
+		"readme": "npm run lib && npm run generate:readme",
 		"generate:readme": "node dist/cli.cjs.js generate",
-		"publish": "cd dist && npm publish --access=public && cd ..",
-		"git:add:commit:push": "git push --porcelain origin refs/heads/master:master --tags",
-		"bump:patch": "npm version patch && npm run git:add:commit:push",
-		"bump:minor": "npm version minor && npm run git:add:commit:push",
-		"bump:major": "npm version major && npm run git:add:commit:push",
-		"publish:patch": "npm run bump:patch && npm run b:lib:prebuild && npm run publish",
-		"publish:minor": "npm run bump:minor && npm run b:lib:prebuild && npm run publish",
-		"publish:major": "npm run bump:major && npm run b:lib:prebuild && npm run publish",
+		"publish:npm": "cd dist && npm publish",
 		"push:readme": "npm run readme && git add . && git commit -m 'New readme' && git push",
+		"release": "npx semantic-release",
 		"ncu": "ncu -u -a && npm update && npm install"
 	},
 	"bugs": {
@@ -66,6 +59,9 @@
 		"web-component-analyzer": "1.0.3"
 	},
 	"devDependencies": {
+		"@bobvanderlinden/semantic-release-pull-request-analyzer": "1.0.1",
+		"@semantic-release/exec": "6.0.3",
+		"@semantic-release/git": "10.0.1",
 		"@types/fs-extra": "^8.1.0",
 		"@types/node": "14.14.31",
 		"@wessberg/rollup-plugin-ts": "^1.2.21",
@@ -74,6 +70,11 @@
 		"rollup-plugin-commonjs": "^10.1.0",
 		"rollup-plugin-json": "^4.0.0",
 		"rollup-plugin-node-resolve": "^5.2.0",
+		"semantic-release": "23.1.1",
 		"typescript": "3.8.3"
+	},
+	"publishConfig": {
+		"access": "public",
+		"provenance": true
 	}
 }

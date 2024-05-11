@@ -1,0 +1,18 @@
+plugins:
+  - "@semantic-release/commit-analyzer"
+  - - "@bobvanderlinden/semantic-release-pull-request-analyzer"
+    - labels: {} # skip analyzeCommits
+  - - "@semantic-release/npm"
+    - pkgRoot: dist
+  - - "@semantic-release/exec"
+    - prepareCmd: |
+        cp dist/package.json .
+        pnpm generate:readme
+        cp README.md dist
+  - - "@semantic-release/git"
+    - assets:
+        - package.json
+        - README.md
+      message: "chore(release): ${nextRelease.version} [skip ci]"
+  - - "@semantic-release/github"
+    - discussionCategoryName: Releases

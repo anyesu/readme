@@ -1,26 +1,48 @@
-name: Publish release
+name: Release
 on:
-  workflow_dispatch:
-    inputs:
-      tag:
-        description: The tag to publish
-        required: true
-  push:
-    tags:
-      - "v*.*.*"
+  workflow_dispatch: #Manual trigger from GitHub UI
+  schedule:
+    # cron uses UTC time
+    - cron: "0 0 * * 1,4"
+#  push:
+#    branches:
+#      - main
+#      - master
+#      - next
+#      - beta
+#      - "*.x" # maintenance releases such as 15.x
+
+permissions:
+  contents: read # for checkout
+
 jobs:
-  publish:
-    name: Publish release
+  release:
+    name: Release
+    # prevents this action from running on forks
+    if: github.repository == 'anyesu/readme'
     runs-on: ubuntu-latest
     permissions:
-      contents: write
-      discussions: write
+      contents: write # to be able to publish a GitHub release
+      issues: write # to be able to comment on released issues
+      pull-requests: write # to be able to comment on released pull requests
+      id-token: write # to enable use of OIDC for npm provenance
+      discussions: write # to be able to create a GitHub release discussion
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Publish release
-        uses: softprops/action-gh-release@v2
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
         with:
-          generate_release_notes: true
-          tag_name: ${{ inputs.tag || '' }}
-          discussion_category_name: Releases
+          version: 8
+          run_install: false
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install dependencies
+        run: pnpm i
+      - run: pnpm build
+      - run: pnpm release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_BOT_NPM_TOKEN }}
